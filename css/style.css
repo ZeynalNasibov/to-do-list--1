@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@400;700&family=Roboto:wght@500&display=swap');
-
+body{
+    background-image: url(./list.webp);
+}
 .container {
     width: 20%;
     height: 20%;
@@ -10,6 +12,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 232px 408px;
+    background-color: white;
 }
 .header {
     background: #FFDC40;
@@ -119,4 +122,18 @@
 .item:hover{
     background-color: #C4C4C4;
     border-radius: 10px;
+}
+label{
+    position: absolute;
+    top: 361px;
+    left: 455px;
+    color: black;
+    font-size: 15px;
+    transition: 1s;
+    padding: 0 5px;
+}
+.input input:focus~label{
+    top: 343px;
+    background:white
+    
 }
